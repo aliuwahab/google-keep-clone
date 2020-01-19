@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Keep Clone</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <main>
+        <header>
+            <img class="header-logo" src="https://www.gstatic.com/images/branding/product/1x/keep_48dp.png" alt="Header Logo">
+            <h2 class="header-title">Google Keep Clone</h2>
+        </header>
+        <div id="form-container">
+
+            <form id="form" action="" autocomplete="off">
+                <input type="text" name="note-title" id="note-title" placeholder="Title">
+                <input type="text" name="note-text" id="note-text" placeholder="Take a note...">
+
+                <div id="form-buttons">
+                    <button type="button" id="submit-button">Submit</button>
+                    <button type="button" id="form-close-button">Close</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="notes">
+
+        </div>
+        <div id="placeholder">
+            <img id="placeholder-logo" src="https://icon.now.sh/lightbulb_outline" alt="Placeholder Logo">
+            <p id="placeholder-text">Notes you add appear here</p>
+        </div>
+    </main>
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
